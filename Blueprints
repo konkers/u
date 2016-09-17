@@ -1,0 +1,5 @@
+subdirs = [
+    "build/blueprint",
+    "build/river",
+    "sandbox",
+]

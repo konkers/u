@@ -1,0 +1,6 @@
+cc_binary {
+    name: "cc_test",
+    srcs: [
+        "test.c",
+    ]
+}

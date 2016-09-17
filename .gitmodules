@@ -1,0 +1,10 @@
+[submodule "prebuilts"]
+	path = prebuilts
+	url = https://github.com/konkers/u-prebuilts.git
+	shallow = true
+[submodule "build/blueprint"]
+	path = build/blueprint
+	url = https://github.com/google/blueprint.git
+[submodule "build/river"]
+	path = build/river
+	url = https://github.com/konkers/blueprint-river.git

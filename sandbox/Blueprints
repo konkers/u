@@ -22,3 +22,13 @@ cc_binary {
         "unity",
     ],
 }
+
+cc_binary {
+    name: "time_test",
+    srcs: [
+        "time_test.c",
+    ],
+    deps: [
+        "unity",
+    ],
+}

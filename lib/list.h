@@ -1,5 +1,5 @@
-#ifndef SANDBOX_LIST_H_
-#define SANDBOX_LIST_H_
+#ifndef LIB_LIST_H_
+#define LIB_LIST_H_
 
 #include <stdbool.h>
 #include <stddef.h>
@@ -86,5 +86,5 @@ static inline bool list_is_end(struct list_head *list, struct list_head *elem) {
          !list_is_end(list, &elem->member);                             \
          elem = list_container_prev(elem, member))
 
-#endif // SANDBOX_LIST_H_
+#endif // LIB_LIST_H_
 

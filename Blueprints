@@ -2,5 +2,6 @@ subdirs = [
     "build/blueprint",
     "build/river",
     "external",
+    "lib",
     "sandbox",
 ]

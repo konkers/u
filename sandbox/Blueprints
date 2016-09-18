@@ -14,16 +14,6 @@ cc_binary {
 }
 
 cc_binary {
-    name: "list_test",
-    srcs: [
-        "list_test.c",
-    ],
-    deps: [
-        "unity",
-    ],
-}
-
-cc_binary {
     name: "time_test",
     srcs: [
         "time_test.c",

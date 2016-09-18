@@ -1,0 +1,10 @@
+cc_binary {
+    name: "list_test",
+    srcs: [
+        "tests/list_test.c",
+    ],
+    deps: [
+        "unity",
+    ],
+}
+

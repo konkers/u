@@ -1,0 +1,12 @@
+cc_library {
+    name = "c_test",
+    srcs = [
+        "test_main.c",
+    ],
+    incs = [
+        "test.h",
+    ],
+    deps = [
+        "unity",
+    ],
+}

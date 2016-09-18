@@ -14,6 +14,8 @@ struct list_head {
     struct list_head *prev;
 };
 
+#define LIST(name) struct list_head name = {.next = &(name), .prev = &(name)}
+
 static inline void list_init(struct list_head *list) {
     list->next = list;
     list->prev = list;

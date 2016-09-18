@@ -12,3 +12,13 @@ cc_binary {
     ],
     extraCFlags: ["-fcoroutines"],
 }
+
+cc_binary {
+    name: "list_test",
+    srcs: [
+        "list_test.c",
+    ],
+    deps: [
+        "unity",
+    ],
+}

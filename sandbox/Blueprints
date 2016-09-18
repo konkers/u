@@ -4,3 +4,11 @@ cc_binary {
         "test.c",
     ]
 }
+
+cc_binary {
+    name: "coro_test",
+    srcs: [
+        "coro_test.c",
+    ],
+    extraCFlags: ["-fcoroutines"],
+}

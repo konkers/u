@@ -8,3 +8,6 @@
 [submodule "build/river"]
 	path = build/river
 	url = https://github.com/konkers/blueprint-river.git
+[submodule "external/unity"]
+	path = external/unity
+	url = https://github.com/konkers/Unity.git

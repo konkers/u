@@ -1,16 +1,10 @@
-#include <external/unity/src/unity.h>
 #include <lib/list.h>
+#include <tools/testing/test.h>
 
 struct test_elem {
     struct list_head list;
     uint32_t val;
 };
-
-void setUp(void) {
-}
-
-void tearDown(void) {
-}
 
 static void test_list_add_front(void) {
     struct list_head list;
@@ -43,6 +37,7 @@ static void test_list_add_front(void) {
     }
     TEST_ASSERT_EQUAL_UINT32(4, val);
 }
+TEST(test_list_add_front);
 
 static void test_list_add_back(void) {
     struct list_head list;
@@ -91,6 +86,7 @@ static void test_list_add_back(void) {
     }
     TEST_ASSERT_EQUAL_UINT32(0 - 1, val);
 }
+TEST(test_list_add_back);
 
 static void test_list_insert(void) {
     struct list_head list;
@@ -121,13 +117,4 @@ static void test_list_insert(void) {
     }
     TEST_ASSERT_EQUAL_UINT32(0 - 1, val);
 }
-
-int main(int argc, char *argv[]) {
-    UNITY_BEGIN();
-
-    RUN_TEST(test_list_add_front);
-    RUN_TEST(test_list_add_back);
-    RUN_TEST(test_list_insert);
-
-    return UNITY_END();
-}
+TEST(test_list_insert);

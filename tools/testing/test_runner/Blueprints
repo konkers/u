@@ -1,0 +1,8 @@
+go_binary {
+    name: "test_runner",
+    srcs: [
+        "c_test_runner.go",
+        "test_runner.go",
+    ],
+    pkgPath: "u/tools/testing/test_runner",
+}

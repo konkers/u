@@ -10,7 +10,7 @@ cc_binary {
     srcs: [
         "coro_test.c",
     ],
-    extraCFlags: ["-fcoroutines"],
+    extraCFlags: [" -fcoroutines-ts"],
 }
 
 cc_binary {

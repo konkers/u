@@ -1,7 +1,6 @@
 [submodule "prebuilts"]
 	path = prebuilts
 	url = https://github.com/konkers/u-prebuilts.git
-	shallow = true
 [submodule "build/blueprint"]
 	path = build/blueprint
 	url = https://github.com/google/blueprint.git
